@@ -39,6 +39,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.33"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:18fc890a9b49702c7fa7f56927ccefe84cd9394f401e932b4b7803ea94953efcf701d13cdb472e1172821d400ef4b0be4803581ddf99d42dcea5a0a31f0b65e3#npm:18.2.0"],\
+            ["react-icons", "virtual:18fc890a9b49702c7fa7f56927ccefe84cd9394f401e932b4b7803ea94953efcf701d13cdb472e1172821d400ef4b0be4803581ddf99d42dcea5a0a31f0b65e3#npm:4.12.0"],\
+            ["sass", "npm:1.69.7"],\
+            ["scrollreveal", "npm:4.0.9"],\
+            ["swiper", "npm:11.0.5"],\
             ["tailwindcss", "npm:3.4.0"],\
             ["vite", "virtual:18fc890a9b49702c7fa7f56927ccefe84cd9394f401e932b4b7803ea94953efcf701d13cdb472e1172821d400ef4b0be4803581ddf99d42dcea5a0a31f0b65e3#npm:5.0.11"]\
           ],\
@@ -2601,6 +2605,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["immutable", [\
+        ["npm:4.3.4", {\
+          "packageLocation": "./.yarn/cache/immutable-npm-4.3.4-2f54cf641b-de3edd964c.zip/node_modules/immutable/",\
+          "packageDependencies": [\
+            ["immutable", "npm:4.3.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["import-fresh", [\
         ["npm:3.3.0", {\
           "packageLocation": "./.yarn/cache/import-fresh-npm-3.3.0-3e34265ca9-2cacfad06e.zip/node_modules/import-fresh/",\
@@ -2749,6 +2762,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["is-date-object", "npm:1.0.5"],\
             ["has-tostringtag", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["is-dom-node", [\
+        ["npm:1.0.4", {\
+          "packageLocation": "./.yarn/cache/is-dom-node-npm-1.0.4-6e7d8323f5-ba6e025076.zip/node_modules/is-dom-node/",\
+          "packageDependencies": [\
+            ["is-dom-node", "npm:1.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["is-dom-node-list", [\
+        ["npm:1.2.1", {\
+          "packageLocation": "./.yarn/cache/is-dom-node-list-npm-1.2.1-42aa71ce37-ce674ec535.zip/node_modules/is-dom-node-list/",\
+          "packageDependencies": [\
+            ["is-dom-node-list", "npm:1.2.1"],\
+            ["is-dom-node", "npm:1.0.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3313,6 +3345,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["minipass-sized", "npm:1.0.3"],\
             ["minipass", "npm:3.3.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["miniraf", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/miniraf-npm-1.0.0-c2bf2b875a-b39b78165d.zip/node_modules/miniraf/",\
+          "packageDependencies": [\
+            ["miniraf", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3909,6 +3950,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-icons", [\
+        ["npm:4.12.0", {\
+          "packageLocation": "./.yarn/cache/react-icons-npm-4.12.0-8fe2109eaf-db82a14111.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "npm:4.12.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:18fc890a9b49702c7fa7f56927ccefe84cd9394f401e932b4b7803ea94953efcf701d13cdb472e1172821d400ef4b0be4803581ddf99d42dcea5a0a31f0b65e3#npm:4.12.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-3ce9ddb63b/0/cache/react-icons-npm-4.12.0-8fe2109eaf-db82a14111.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "virtual:18fc890a9b49702c7fa7f56927ccefe84cd9394f401e932b4b7803ea94953efcf701d13cdb472e1172821d400ef4b0be4803581ddf99d42dcea5a0a31f0b65e3#npm:4.12.0"],\
+            ["@types/react", "npm:18.2.46"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-is", [\
         ["npm:16.13.1", {\
           "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",\
@@ -3970,6 +4033,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["call-bind", "npm:1.0.5"],\
             ["define-properties", "npm:1.2.1"],\
             ["set-function-name", "npm:2.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["rematrix", [\
+        ["npm:0.3.0", {\
+          "packageLocation": "./.yarn/cache/rematrix-npm-0.3.0-1a23f78fff-f3e8dc254e.zip/node_modules/rematrix/",\
+          "packageDependencies": [\
+            ["rematrix", "npm:0.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4101,12 +4173,36 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["sass", [\
+        ["npm:1.69.7", {\
+          "packageLocation": "./.yarn/cache/sass-npm-1.69.7-ac434a094c-c67cd32b69.zip/node_modules/sass/",\
+          "packageDependencies": [\
+            ["sass", "npm:1.69.7"],\
+            ["chokidar", "npm:3.5.3"],\
+            ["immutable", "npm:4.3.4"],\
+            ["source-map-js", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["scheduler", [\
         ["npm:0.23.0", {\
           "packageLocation": "./.yarn/cache/scheduler-npm-0.23.0-a379a6bc3b-d79192eeaa.zip/node_modules/scheduler/",\
           "packageDependencies": [\
             ["scheduler", "npm:0.23.0"],\
             ["loose-envify", "npm:1.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["scrollreveal", [\
+        ["npm:4.0.9", {\
+          "packageLocation": "./.yarn/unplugged/scrollreveal-npm-4.0.9-2619baabb8/node_modules/scrollreveal/",\
+          "packageDependencies": [\
+            ["scrollreveal", "npm:4.0.9"],\
+            ["miniraf", "npm:1.0.0"],\
+            ["rematrix", "npm:0.3.0"],\
+            ["tealight", "npm:0.3.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4390,6 +4486,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["swiper", [\
+        ["npm:11.0.5", {\
+          "packageLocation": "./.yarn/cache/swiper-npm-11.0.5-152220df64-83b125d167.zip/node_modules/swiper/",\
+          "packageDependencies": [\
+            ["swiper", "npm:11.0.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["tailwindcss", [\
         ["npm:3.4.0", {\
           "packageLocation": "./.yarn/cache/tailwindcss-npm-3.4.0-e59fbdee04-d7f05beb1c.zip/node_modules/tailwindcss/",\
@@ -4432,6 +4537,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minizlib", "npm:2.1.2"],\
             ["mkdirp", "npm:1.0.4"],\
             ["yallist", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tealight", [\
+        ["npm:0.3.6", {\
+          "packageLocation": "./.yarn/cache/tealight-npm-0.3.6-d4a56ddca9-f9262f9762.zip/node_modules/tealight/",\
+          "packageDependencies": [\
+            ["tealight", "npm:0.3.6"],\
+            ["is-dom-node", "npm:1.0.4"],\
+            ["is-dom-node-list", "npm:1.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4664,7 +4780,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lightningcss", null],\
             ["postcss", "npm:8.4.33"],\
             ["rollup", "npm:4.9.3"],\
-            ["sass", null],\
+            ["sass", "npm:1.69.7"],\
             ["stylus", null],\
             ["sugarss", null],\
             ["terser", null]\
@@ -4848,6 +4964,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.33"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:18fc890a9b49702c7fa7f56927ccefe84cd9394f401e932b4b7803ea94953efcf701d13cdb472e1172821d400ef4b0be4803581ddf99d42dcea5a0a31f0b65e3#npm:18.2.0"],\
+            ["react-icons", "virtual:18fc890a9b49702c7fa7f56927ccefe84cd9394f401e932b4b7803ea94953efcf701d13cdb472e1172821d400ef4b0be4803581ddf99d42dcea5a0a31f0b65e3#npm:4.12.0"],\
+            ["sass", "npm:1.69.7"],\
+            ["scrollreveal", "npm:4.0.9"],\
+            ["swiper", "npm:11.0.5"],\
             ["tailwindcss", "npm:3.4.0"],\
             ["vite", "virtual:18fc890a9b49702c7fa7f56927ccefe84cd9394f401e932b4b7803ea94953efcf701d13cdb472e1172821d400ef4b0be4803581ddf99d42dcea5a0a31f0b65e3#npm:5.0.11"]\
           ],\
