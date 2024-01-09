@@ -207,7 +207,7 @@ img {
   }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 426px) {
   .nav__menu {
     padding: 1rem 1.5rem;
   }
