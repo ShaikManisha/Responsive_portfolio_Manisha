@@ -36,8 +36,4 @@ export default {
       },
     },
   },
-  plugins: [
-    require("tailwindcss"),
-    // Other PostCSS plugins if any
-  ],
 };
