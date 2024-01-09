@@ -182,7 +182,7 @@ img {
   }
 
   .services__container {
-    grid-template-columns: 256px;
+    grid-template-columns: 291px;
     justify-content: center;
   }
 
@@ -193,7 +193,7 @@ img {
     column-gap: 0.25rem;
   }
   main {
-    padding: 2rem;
+    padding: 1rem;
   }
   header {
     padding: 0 1rem;
