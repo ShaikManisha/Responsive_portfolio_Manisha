@@ -164,9 +164,9 @@ img {
     padding: 1rem 1.5rem;
   }
 
-  .home__buttons {
+  /* .home__buttons {
     flex-direction: column;
-  }
+  } */
   .home__handle {
     width: 167px;
     height: 250px;
