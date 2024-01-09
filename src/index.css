@@ -4,8 +4,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-
-
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -210,7 +208,7 @@ img {
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 426px) {
+@media screen and (min-width: 375px) and (max-width: 575px) {
   .nav__menu {
     padding: 1rem 1.5rem;
   }
@@ -323,9 +321,9 @@ img {
   .header {
     padding: 0 1rem;
   }
-  /* .main {
-    padding: 0 1rem;
-  } */
+  .main {
+    padding: 2rem;
+  }
   .work__container {
     grid-template-columns: repeat(2, max-content);
   }
