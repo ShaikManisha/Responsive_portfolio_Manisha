@@ -40,7 +40,7 @@ function App() {
   }, [theme]);
 
   return (
-    <div className={`App`}>
+    <>
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <main className="main">
         <Home />
@@ -52,7 +52,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-    </div>
+    </>
   );
 }
 

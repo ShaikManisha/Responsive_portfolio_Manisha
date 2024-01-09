@@ -118,8 +118,8 @@ img {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 968px;
-  /* margin-left: 1rem;
-  margin-right: 1rem; */
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .grid {
@@ -155,6 +155,11 @@ img {
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 320px) {
+  .container {
+    max-width: 968px;
+    margin-left: 0; /* Set margin-left to 0 for 320px screen */
+    margin-right: 1rem;
+  }
   .nav__menu {
     padding: 1rem 1.5rem;
   }
@@ -209,6 +214,11 @@ img {
 }
 
 @media screen and (min-width: 375px) and (max-width: 575px) {
+  .container {
+    max-width: 968px;
+    margin-left: 0; /* Set margin-left to 0 for 320px screen */
+    margin-right: 1rem;
+  }
   .nav__menu {
     padding: 1rem 1.5rem;
   }
@@ -264,6 +274,11 @@ img {
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
+  .container {
+    max-width: 968px;
+    margin-left: 0; /* Set margin-left to 0 for 320px screen */
+    margin-right: 1rem;
+  }
   .nav__menu {
     width: 328px;
     left: 0;
