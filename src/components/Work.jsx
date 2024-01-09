@@ -10,31 +10,37 @@ const workItems = [
     id: 1,
     image: Work1,
     category: "web",
-    title: "Learning Managnent System",
+    title: "BrontoPlus",
   },
   {
     id: 2,
     image: Work2,
     category: "movil",
-    title: "LMS",
+    title: "Solix",
   },
   {
     id: 3,
     image: Work3,
     category: "design",
-    title: "IOT",
+    title: "Nextjs Project",
   },
   {
     id: 4,
     image: Work4,
     category: "web",
-    title: "Ticketing Tool",
+    title: "Ecommerence Project",
   },
   {
     id: 5,
     image: Work5,
     category: "movil",
-    title: "CMS",
+    title: "Metaverse",
+  },
+  {
+    id: 6,
+    image: Work5,
+    category: "movil",
+    title: "Admin Panels",
   },
 ];
 const Work = () => {

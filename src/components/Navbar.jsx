@@ -8,7 +8,6 @@ import { FiHome } from "react-icons/fi";
 import { IoSunnyOutline } from "react-icons/io5";
 import { LuMoon } from "react-icons/lu";
 import "../assets/scss/components/navbar.scss";
-import "../assets/scss/components/theme.scss";
 
 const NavItem = ({ id, icon: Icon, activeSection, scrollToSection }) => {
   const isActive = activeSection === id;
@@ -42,17 +41,16 @@ const Navbar = ({ theme, toggleTheme }) => {
 
       const scrollPosition = window.scrollY;
 
-      if (scrollPosition >= sectionOffsets.contact) {
-        setActiveSection("contact");
-      } else if (scrollPosition >= sectionOffsets.work) {
-        setActiveSection("work");
-      } else if (scrollPosition >= sectionOffsets.skills) {
-        setActiveSection("skills");
-      } else if (scrollPosition >= sectionOffsets.about) {
-        setActiveSection("about");
-      } else {
-        setActiveSection("home");
+      const sections = Object.keys(sectionOffsets);
+      let currentSection = "home";
+      for (let i = sections.length - 1; i >= 0; i--) {
+        if (scrollPosition >= sectionOffsets[sections[i]]) {
+          currentSection = sections[i];
+          break;
+        }
       }
+
+      setActiveSection(currentSection);
 
       if (scrollPosition >= 10) {
         setScroll(true);
@@ -61,11 +59,6 @@ const Navbar = ({ theme, toggleTheme }) => {
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);

@@ -115,85 +115,6 @@ img {
   height: auto;
 }
 
-/*=============== THEME ===============*/
-.change-theme {
-  font-size: 1.25rem;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.change-theme:hover {
-  color: var(--first-color);
-}
-
-/*========== Variables Light theme ==========*/
-body.light-theme {
-  --title-color: hsl(var(--second-hue), 15%, 15%);
-  --text-color: hsl(var(--second-hue), 8%, 35%);
-  --body-color: hsl(var(--second-hue), 100%, 99%);
-  --container-color: #fff;
-}
-
-/*========== 
-    Color changes in some parts of 
-    the website, in light theme
-==========*/
-.light-theme .scroll-header {
-  box-shadow: 0 2px 4px hsla(0, 0%, 1%, 0.1);
-}
-
-.light-theme .nav__menu {
-  background-color: hsla(var(--second-hue), 32%, 90%, 0.8);
-}
-
-.light-theme .section__subtitle {
-  color: var(--text-color);
-}
-
-.light-theme .home__social-link {
-  box-shadow: 0 2px 8px hsla(var(--second-hue), 48%, 8%, 0.1);
-}
-
-.light-theme .home__social::after,
-.light-theme .footer__social-link {
-  background-color: var(--title-color);
-}
-
-.light-theme .home__social-link,
-.light-theme .home__scroll,
-.light-theme .button,
-.light-theme .button:hover,
-.light-theme .active-work,
-.light-theme .footer__title,
-.light-theme .footer__link,
-.light-theme .footer__copy {
-  color: var(--title-color);
-}
-
-.light-theme .about__box {
-  box-shadow: 0 2px 8px hsla(var(--second-hue), 48%, 8%, 0.1);
-}
-
-.light-theme .skills__content,
-.light-theme .services__card,
-.light-theme .work__card,
-.light-theme .testimonial__card,
-.light-theme .contact__card {
-  box-shadow: 0 2px 16px hsla(var(--second-hue), 48%, 8%, 0.1);
-}
-
-.light-theme::-webkit-scrollbar {
-  background-color: hsl(var(--second-hue), 8%, 66%);
-}
-
-.light-theme::-webkit-scrollbar-thumb {
-  background-color: hsl(var(--second-hue), 8%, 54%);
-}
-
-.light-theme::-webkit-scrollbar-thumb:hover {
-  background-color: hsl(var(--second-hue), 8%, 44%);
-}
-
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 968px;
@@ -242,8 +163,8 @@ body.light-theme {
     flex-direction: column;
   }
   .home__handle {
-    width: 150px;
-    height: 253px;
+    width: 167px;
+    height: 250px;
   }
   .home__img {
     width: 130px;
@@ -261,7 +182,7 @@ body.light-theme {
   }
 
   .services__container {
-    grid-template-columns: 145px;
+    grid-template-columns: 256px;
     justify-content: center;
   }
 
@@ -272,7 +193,7 @@ body.light-theme {
     column-gap: 0.25rem;
   }
   main {
-    padding: 1rem;
+    padding: 2rem;
   }
   header {
     padding: 0 1rem;
@@ -305,7 +226,7 @@ body.light-theme {
     justify-content: center;
   }
   .skills__content {
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
   }
 
   .services__container {
@@ -334,6 +255,8 @@ body.light-theme {
   .contact__form {
     width: 360px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -341,9 +264,9 @@ body.light-theme {
   .header {
     padding: 0 1rem;
   }
-  .main {
+  /* .main {
     padding: 0 1rem;
-  }
+  } */
   .work__container {
     grid-template-columns: repeat(2, max-content);
   }
@@ -374,8 +297,8 @@ body.light-theme {
   }
 
   .home__handle {
-    width: 305px;
-    height: 337px;
+    width: 238px;
+    height: 360px;
   }
   .home__img {
     width: 220px;
@@ -424,7 +347,7 @@ body.light-theme {
     column-gap: 3rem;
   }
   .services__card {
-    padding: 5rem 2rem 1.5rem;
+    padding: 3rem 2rem 1.5rem;
   }
 
   .work__container {

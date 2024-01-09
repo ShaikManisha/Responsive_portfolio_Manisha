@@ -13,26 +13,26 @@ const Services = () => {
 
   const servicesData = [
     {
-      title: `Product  Designer`,
+      title: `Web Developer`,
       buttonText: "See More",
-      icon: <i class="bx bx-right-arrow-alt services__icon"></i>,
+      icon: <i className="bx bx-right-arrow-alt services__icon"></i>,
       description:
         " Service with more than 2 years of experience. Providing quality work to clients and companies",
       details: [
         {
-          icon: <i class="bx bx-check services__modal-icon"></i>,
+          icon: <i className="bx bx-check services__modal-icon"></i>,
           info: "Detail Info 1",
         },
         {
-          icon: <i class="bx bx-check services__modal-icon"></i>,
+          icon: <i className="bx bx-check services__modal-icon"></i>,
           info: "Detail Info 2",
         },
         {
-          icon: <i class="bx bx-check services__modal-icon"></i>,
+          icon: <i className="bx bx-check services__modal-icon"></i>,
           info: "Detail Info 1",
         },
         {
-          icon: <i class="bx bx-check services__modal-icon"></i>,
+          icon: <i className="bx bx-check services__modal-icon"></i>,
           info: "Detail Info 2",
         },
       ],
@@ -40,49 +40,49 @@ const Services = () => {
     {
       title: `Product  Designer`,
       buttonText: "See More",
-      icon: <i class="bx bx-right-arrow-alt services__icon"></i>,
+      icon: <i className="bx bx-right-arrow-alt services__icon"></i>,
       description:
         " Service with more than 2 years of experience. Providing quality work to clients and companies",
       details: [
         {
-          icon: <i class="bx bx-check services__modal-icon"></i>,
+          icon: <i className="bx bx-check services__modal-icon"></i>,
           info: "Detail Info 1",
         },
         {
-          icon: <i class="bx bx-check services__modal-icon"></i>,
+          icon: <i className="bx bx-check services__modal-icon"></i>,
           info: "Detail Info 2",
         },
         {
-          icon: <i class="bx bx-check services__modal-icon"></i>,
+          icon: <i className="bx bx-check services__modal-icon"></i>,
           info: "Detail Info 1",
         },
         {
-          icon: <i class="bx bx-check services__modal-icon"></i>,
+          icon: <i className="bx bx-check services__modal-icon"></i>,
           info: "Detail Info 2",
         },
       ],
     },
     {
-      title: `Product  Designer`,
+      title: `Frontend Developer`,
       buttonText: "See More",
-      icon: <i class="bx bx-right-arrow-alt services__icon"></i>,
+      icon: <i className="bx bx-right-arrow-alt services__icon"></i>,
       description:
         " Service with more than 2 years of experience. Providing quality work to clients and companies",
       details: [
         {
-          icon: <i class="bx bx-check services__modal-icon"></i>,
+          icon: <i className="bx bx-check services__modal-icon"></i>,
           info: "Detail Info 1",
         },
         {
-          icon: <i class="bx bx-check services__modal-icon"></i>,
+          icon: <i className="bx bx-check services__modal-icon"></i>,
           info: "Detail Info 2",
         },
         {
-          icon: <i class="bx bx-check services__modal-icon"></i>,
+          icon: <i className="bx bx-check services__modal-icon"></i>,
           info: "Detail Info 1",
         },
         {
-          icon: <i class="bx bx-check services__modal-icon"></i>,
+          icon: <i className="bx bx-check services__modal-icon"></i>,
           info: "Detail Info 2",
         },
       ],
@@ -90,9 +90,9 @@ const Services = () => {
   ];
 
   return (
-    <section class="services section">
-      <span class="section__subtitle">My Services</span>
-      <h2 class="section__title">What I Offer</h2>
+    <section className="services section">
+      <span className="section__subtitle">My Services</span>
+      <h2 className="section__title">What I Offer</h2>
 
       <div className="services__container container grid">
         {servicesData.map((service, index) => (
