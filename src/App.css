@@ -61,57 +61,6 @@
   }
 }
 
-/*=============== BASE ===============*/
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body,
-button,
-input,
-textarea {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-}
-
-body {
-  background-color: var(--body-color);
-  color: var(--text-color);
-  transition: 0.4s; /* for light mode animation */
-}
-
-h1,
-h2,
-h3 {
-  color: var(--title-color);
-  font-weight: var(--font-semibold);
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-  border: none;
-  outline: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 /*=============== THEME ===============*/
 .change-theme {
   font-size: 1.25rem;
@@ -131,10 +80,11 @@ body.light-theme {
   --container-color: #fff;
 }
 
-/*========== 
-    Color changes in some parts of 
-    the website, in light theme
+/*==========
+  Color changes in some parts of
+  the website, in light theme
 ==========*/
+
 .light-theme .scroll-header {
   box-shadow: 0 2px 4px hsla(0, 0%, 1%, 0.1);
 }
@@ -150,7 +100,6 @@ body.light-theme {
 .light-theme .home__social-link {
   box-shadow: 0 2px 8px hsla(var(--second-hue), 48%, 8%, 0.1);
 }
-
 .light-theme .home__social::after,
 .light-theme .footer__social-link {
   background-color: var(--title-color);
@@ -182,21 +131,14 @@ body.light-theme {
 .light-theme::-webkit-scrollbar {
   background-color: hsl(var(--second-hue), 8%, 66%);
 }
-
 .light-theme::-webkit-scrollbar-thumb {
   background-color: hsl(var(--second-hue), 8%, 54%);
 }
-
 .light-theme::-webkit-scrollbar-thumb:hover {
   background-color: hsl(var(--second-hue), 8%, 44%);
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
-.container {
-  /* max-width: 968px;
-  margin-left: 1rem;
-  margin-right: 1rem; */
-}
 
 .grid {
   display: grid;

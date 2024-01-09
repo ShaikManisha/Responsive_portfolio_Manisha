@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import "../assets/scss/components/home.scss";
-import maniAbout from "../assets/img/maniAbout.jpg";
+import manisha3 from "../assets/img/Manisha3.jpg";
 import ScrollReveal from "scrollreveal";
+import resumePDF from "../assets/pdf/Manisha-Latest-Resume.pdf";
 const Home = () => {
   useEffect(() => {
     const sr = ScrollReveal({
@@ -19,59 +20,71 @@ const Home = () => {
     // Clean up ScrollReveal instance on component unmount
     return () => sr.destroy();
   }, []);
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = resumePDF;
+    link.download = "Manisha-Latest-Resume.pdf";
+    link.target = "_blank";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
-    <section class="home section" id="home">
-      <div class="home__container container grid">
-        <div class="home__data">
-          <span class="home__greeting">Hello, I'm</span>
-          <h1 class="home__name">SHAIK MANISHA</h1>
-          <h3 class="home__education">
+    <section className="home section" id="home">
+      <div className="home__container container grid">
+        <div className="home__data">
+          <span className="home__greeting">Hello, I'm</span>
+          <h1 className="home__name">SHAIK MANISHA</h1>
+          <h3 className="home__education">
             Frontend Developer || ReactJS || NextJs
           </h3>
 
-          <div class="home__buttons">
+          <div className="home__buttons">
             {/* Insert your CV  */}
-            <a
+            <button onClick={handleDownload} className="button button--ghost">
+              {/* <a
               download="Manisha-Latest-Resume.pdf"
-              href="../assets/pdf/Manisha-Latest-Resume.pdf"
-              class="button button--ghost">
+              href={resumePDF}
+              className="button button--ghost"> */}
               Download CV
-            </a>
-            <a href="#about" class="button">
+              {/* </a> */}
+            </button>
+            <a href="#about" className="button">
               About me
             </a>
           </div>
         </div>
 
-        <div class="home__handle">
+        <div className="home__handle">
           {/* Insert your image, according to the example size of the portfolio  */}
-          <img src={maniAbout} alt="" class="about__img" />
+          <img src={manisha3} alt="" className="about__img" />
         </div>
 
-        <div class="home__social">
+        <div className="home__social">
           <a
             href="https://www.linkedin.com/"
             target="_blank"
-            class="home__social-link">
-            <i class="bx bxl-linkedin-square"></i>
+            className="home__social-link">
+            <i className="bx bxl-linkedin-square"></i>
           </a>
           <a
             href="https://github.com/"
             target="_blank"
-            class="home__social-link">
-            <i class="bx bxl-github"></i>
+            className="home__social-link">
+            <i className="bx bxl-github"></i>
           </a>
           <a
             href="https://dribbble.com/"
             target="_blank"
-            class="home__social-link">
-            <i class="bx bxl-dribbble"></i>
+            className="home__social-link">
+            <i className="bx bxl-dribbble"></i>
           </a>
         </div>
 
-        <a href="#about" class="home__scroll">
-          <i class="bx bx-mouse home__scroll-icon"></i>
-          <span class="home__scroll-name">Scroll Down</span>
+        <a href="#about" className="home__scroll">
+          <i className="bx bx-mouse home__scroll-icon"></i>
+          <span className="home__scroll-name">Scroll Down</span>
         </a>
       </div>
     </section>
