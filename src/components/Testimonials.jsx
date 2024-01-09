@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import "../assets/scss/components/testimonials.scss";
 import Swiper from "swiper";
 import "../swiper-bundle.min.css"; // Import Swiper styles
-import "../assets/js/swiper-bundle.min.js";
+// import "../assets/js/swiper-bundle.min.js";
 const Testimonials = () => {
   const swiperRef = useRef(null);
 
