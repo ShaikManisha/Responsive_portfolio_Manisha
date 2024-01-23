@@ -5,6 +5,7 @@ import Work2 from "../assets/img/work2.jpg";
 import Work3 from "../assets/img/work3.jpg";
 import Work4 from "../assets/img/work4.jpg";
 import Work5 from "../assets/img/work5.jpg";
+import Work6 from "../assets/img/work6.jpg";
 const workItems = [
   {
     id: 1,
@@ -38,7 +39,7 @@ const workItems = [
   },
   {
     id: 6,
-    image: Work5,
+    image: Work6,
     category: "movil",
     title: "Admin Panels",
   },
