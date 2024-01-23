@@ -21,69 +21,62 @@ const Services = () => {
       details: [
         {
           icon: <i className="bx bx-check services__modal-icon"></i>,
-          info: "Detail Info 1",
+          info: "Developed UI with pixel perfect",
         },
         {
           icon: <i className="bx bx-check services__modal-icon"></i>,
-          info: "Detail Info 2",
+          info: "Creating web pages with coding standards",
         },
         {
           icon: <i className="bx bx-check services__modal-icon"></i>,
-          info: "Detail Info 1",
+          info: "Designed the websites by using Tailwind CSS,Material UI",
         },
         {
           icon: <i className="bx bx-check services__modal-icon"></i>,
-          info: "Detail Info 2",
+          info: "Did the integration part using GraphQL and REST Api's",
         },
       ],
     },
-    {
-      title: `Product  Designer`,
-      buttonText: "See More",
-      icon: <i className="bx bx-right-arrow-alt services__icon"></i>,
-      description:
-        " Service with more than 2 years of experience. Providing quality work to clients and companies",
-      details: [
-        {
-          icon: <i className="bx bx-check services__modal-icon"></i>,
-          info: "Detail Info 1",
-        },
-        {
-          icon: <i className="bx bx-check services__modal-icon"></i>,
-          info: "Detail Info 2",
-        },
-        {
-          icon: <i className="bx bx-check services__modal-icon"></i>,
-          info: "Detail Info 1",
-        },
-        {
-          icon: <i className="bx bx-check services__modal-icon"></i>,
-          info: "Detail Info 2",
-        },
-      ],
-    },
+
     {
       title: `Frontend Developer`,
       buttonText: "See More",
       icon: <i className="bx bx-right-arrow-alt services__icon"></i>,
       description:
+        " Service with more than 2.5 years of experience. Providing quality work to clients and companies",
+      details: [
+        {
+          icon: <i className="bx bx-check services__modal-icon"></i>,
+          info: "Developed UI with pixel perfect",
+        },
+        {
+          icon: <i className="bx bx-check services__modal-icon"></i>,
+          info: "Creating web pages with coding standards",
+        },
+        {
+          icon: <i className="bx bx-check services__modal-icon"></i>,
+          info: "Designed the websites by using Tailwind CSS,Material UI",
+        },
+        {
+          icon: <i className="bx bx-check services__modal-icon"></i>,
+          info: "Did the integration part using GraphQL and REST Api's",
+        },
+      ],
+    },
+    {
+      title: `NodeJs`,
+      buttonText: "See More",
+      icon: <i className="bx bx-right-arrow-alt services__icon"></i>,
+      description:
         " Service with more than 2 years of experience. Providing quality work to clients and companies",
       details: [
         {
           icon: <i className="bx bx-check services__modal-icon"></i>,
-          info: "Detail Info 1",
+          info: "Having basic knowlege on Node",
         },
         {
           icon: <i className="bx bx-check services__modal-icon"></i>,
-          info: "Detail Info 2",
-        },
-        {
-          icon: <i className="bx bx-check services__modal-icon"></i>,
-          info: "Detail Info 1",
-        },
-        {
-          icon: <i className="bx bx-check services__modal-icon"></i>,
-          info: "Detail Info 2",
+          info: "Created personal projects using Backend end",
         },
       ],
     },
