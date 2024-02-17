@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../assets/scss/components/works.scss";
 import Work1 from "../assets/img/work1.jpg";
 import Work2 from "../assets/img/work2.jpg";
@@ -85,9 +85,9 @@ const Work = () => {
             <div key={work.id} className={`work__card mix ${work.category}`}>
               <img src={work.image} alt="" className="work__img" />
               <h3 className="work__title">{work.title}</h3>
-              <a href="" className="work__button">
+              {/* <a href="" className="work__button">
                 Demo <i className="bx bx-right-arrow-alt work__icon"></i>
-              </a>
+              </a> */}
             </div>
           ))}
       </div>
