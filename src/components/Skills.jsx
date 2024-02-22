@@ -1,4 +1,3 @@
-import React from "react";
 import "../assets/scss/components/skills.scss";
 const Skills = () => {
   return (
@@ -45,6 +44,14 @@ const Skills = () => {
                   <span className="skills__level">Advanced</span>
                 </div>
               </div>
+              <div className="skills__data">
+                <i className="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 className="skills__name">Material UI</h3>
+                  <span className="skills__level">Advanced</span>
+                </div>
+              </div>
             </div>
 
             <div className="skills__group">
@@ -82,6 +89,14 @@ const Skills = () => {
                   <span className="skills__level">Advanced</span>
                 </div>
               </div>
+              <div className="skills__data">
+                <i className="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 className="skills__name">SCSS</h3>
+                  <span className="skills__level">Intermediate</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -96,6 +111,14 @@ const Skills = () => {
 
                 <div>
                   <h3 className="skills__name">Node Js</h3>
+                  <span className="skills__level">Basic</span>
+                </div>
+              </div>
+              <div className="skills__data">
+                <i className="bx bxs-badge-check"></i>
+
+                <div>
+                  <h3 className="skills__name">Express Js</h3>
                   <span className="skills__level">Basic</span>
                 </div>
               </div>

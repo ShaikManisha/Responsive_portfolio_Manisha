@@ -64,7 +64,7 @@ const Services = () => {
       ],
     },
     {
-      title: `NodeJs`,
+      title: `Node Js & Express Js`,
       buttonText: "See More",
       icon: <i className="bx bx-right-arrow-alt services__icon"></i>,
       description:

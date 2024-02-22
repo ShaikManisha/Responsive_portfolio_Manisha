@@ -44,6 +44,9 @@ const Footer = () => {
             <i className="bx bxl-linkedin"></i>
           </a>
         </ul>
+        <span className="footer__social footer__link footer_text">
+          ©Manisha. All rigths reserved
+        </span>
       </div>
     </footer>
   );
